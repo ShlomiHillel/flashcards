@@ -1,11 +1,27 @@
 import React from 'react';
-
+import {useState } from 'react';
+import Insert from '../components/Insert';
 const EditPage = () => {
-    return (
-        <div className='space'>
-            <h1> edit</h1>
-        </div>
-    );
+
+ return (    
+    <div className=''>
+            
+                
+            
+    <Insert/> 
+    </div>    
+        );
 }
 
 export default EditPage;
+
+
+/* <form onSubmit={}>
+            <label>
+                User: <input name="user" value={this.state.user} onChange={this.handleChange}/>
+            </label>
+            <label>
+                <input name="rememberMe" checked={this.state.rememberMe} onChange={this.handleChange} type="checkbox"/> Remember me
+            </label>
+            <button type="submit">Sign In</button>
+            </form> */

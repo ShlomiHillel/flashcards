@@ -1,5 +1,5 @@
-import React, {useContext} from 'react';
-// import { myContext } from '../Context';
+import React from 'react';
+
 
 
 const HomePage = () => {
@@ -13,11 +13,13 @@ const HomePage = () => {
 
             <section>
                 <h3>card</h3>
-                <p>card text</p>
-                
-            
+                <p>card text</p>    
             </section>
             
+            <section>
+
+
+            </section>
      
         </div>    
         );

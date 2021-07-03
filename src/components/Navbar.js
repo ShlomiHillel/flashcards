@@ -8,7 +8,7 @@ import './CompStyle.css';
 
 const Navbar=() => {
      const [scrolled,setScrolled]= useState(false);
-     const [open,setOpen]= useState( false);
+    
     
     //  const { cartIsOpen, cOpen, amount} = useContext(myContext);
   
