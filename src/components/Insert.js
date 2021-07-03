@@ -37,12 +37,12 @@ const Insert = () => {
 
     return (
         <div className='space'>
-            <h1> edit</h1>
+            <h5>Insert</h5>
             <section>      
-            <label>The Question<input name='que' value={valueQ} type='text' onChange={onChangeQ}/></label>  
+            <label>The Question <input name='que' value={valueQ} type='text' onChange={onChangeQ}/></label>  
             <p></p>
             {/* <p>{valueQ}</p> */}
-            <label>The Answer<input name='ans' value={valueA} type='text' onChange={onChangeA}/></label> 
+            <label>The Answer <input name='ans' value={valueA} type='text' onChange={onChangeA}/></label> 
             <p></p>
             {/* <p>{valueA}</p> */}
             <p>{error}</p>
