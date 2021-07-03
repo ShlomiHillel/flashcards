@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    padding: 0.75rem 0.75rem;
+    background:whitesmoke;
+    border-radius: 0px;
+    z-index: 1;
+    
+  }
+
+  .nav-header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    transition:ease-in 0.2s;
+  }
+
+  .nav-shrink {
+    height: 5vh;
+    transition:ease-in 1s;
+  }

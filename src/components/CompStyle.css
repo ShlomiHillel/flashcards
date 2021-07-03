@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  /*---------------------------Nvabar-------------------------------------------*/
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.8rem 0.5rem;
+    background:rgba(173, 161, 161, 0.95);
+  }
+
+  .nav-header {
+    display: flex;
+    justify-content:left ;
+    align-items: center;
+    height: 3rem;
+  }
+
+  .nav-shrink {
+    height: 1rem;
+    transition:ease-in 1s;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 1rem;
+  }
+
+  
+  li {
+    padding: 1rem;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+
+
+  /*---------------------------home page-----------------------------------------*/
+
+  .space {
+    margin-top: 6rem;  
+  }
