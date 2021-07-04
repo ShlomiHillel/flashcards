@@ -18,10 +18,10 @@ const Insert = () => {
         localStorage.setItem(`Answer${(localStorage.length)-1}`, valueA);
         setValueQ('');
         setValueA('');
-        console.log('length ' + localStorage.length); 
-        for (let i = 0; i < localStorage.length; i++) {
+        // console.log('length ' + localStorage.length); 
+         for (let i = 0; i < localStorage.length; i++) {
             console.log(localStorage.key(i)+": "+ localStorage.getItem(localStorage.key(i)));
-        }        
+         }        
     } else {
         setError('no input') 
     }  
