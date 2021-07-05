@@ -26,10 +26,9 @@ const Insert = () => {
         setError('no input') 
     }  
   }
-  React.useEffect(() => {
-  }, [valueQ]);
-  React.useEffect(() => {
-  }, [valueA]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  React.useEffect(onSave(), [valueQ,valueA]);
+ 
   const Reset = () => {
     console.log(localStorage)
     localStorage.clear() 

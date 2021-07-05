@@ -2,6 +2,8 @@ import React from 'react';
 // import {useState } from 'react';
 import Insert from '../components/Insert';
 import CardList from '../components/CardList';
+
+
 const EditPage = () => {
 
  return (    

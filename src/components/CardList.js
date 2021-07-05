@@ -1,9 +1,11 @@
-
+import {useState } from 'react';
 import React from 'react';
 
 
 
 export default function CardList() {
+
+    const [num, setNum] = useState(0);
     const Length = localStorage.length; 
     console.log(Length); 
 
@@ -11,6 +13,14 @@ export default function CardList() {
      console.log('Delete');  
      localStorage.removeItem(`Question0`)
      localStorage.removeItem(`Answer0`)  
+    }
+
+    const show = ()=>{
+          for (let i = 0; i < localStorage.length; i++) {
+             // eslint-disable-next-line no-unused-expressions
+             localStorage.key(i)+':'  + localStorage.getItem(localStorage.key(i));
+          }    
+
     }
     
   return (
