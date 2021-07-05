@@ -19,9 +19,9 @@ const Insert = () => {
         setValueQ('');
         setValueA('');
         // console.log('length ' + localStorage.length); 
-         for (let i = 0; i < localStorage.length; i++) {
-            console.log(localStorage.key(i)+": "+ localStorage.getItem(localStorage.key(i)));
-         }        
+        //  for (let i = 0; i < localStorage.length; i++) {
+        //     console.log(localStorage.key(i)+" : "+ localStorage.getItem(localStorage.key(i)));
+        //  }        
     } else {
         setError('no input') 
     }  
